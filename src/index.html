@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>WebApp Bar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { margin: 0; padding: 0; }
+        .app-icon { cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="bar-content">
+            <div class="app-icons">
+                <div class="app-icon" title="Gmail"><i class="fas fa-envelope"></i></div>
+                <div class="app-icon" title="Calendar"><i class="fas fa-calendar"></i></div>
+                <div class="app-icon" title="GitHub"><i class="fab fa-github"></i></div>
+                <div class="app-icon" title="ChatGPT"><i class="fas fa-robot"></i></div>
+            </div>
+            <div class="system-tray">
+                <span id="clock">12:00 PM</span>
+                <button class="settings-btn"><i class="fas fa-cog"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>

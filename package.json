@@ -1,0 +1,20 @@
+﻿{
+  "name": "webapp-bar",
+  "version": "1.0.0",
+  "description": "Desktop top bar for web apps",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win"
+  },
+  "keywords": ["desktop", "launcher", "web-apps"],
+  "author": "ankjon86",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.0.0"
+  },
+  "dependencies": {
+    "electron-store": "^8.1.0"
+  }
+}

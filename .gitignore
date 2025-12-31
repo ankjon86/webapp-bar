@@ -1,0 +1,8 @@
+﻿node_modules/
+package-lock.json
+dist/
+build/
+*.exe
+*.dll
+.DS_Store
+Thumbs.db
